@@ -1,0 +1,1021 @@
+body {
+    background-color: #ffffff;
+    position: relative;
+}
+
+    #main_table {
+        background-color: #ffffff;
+        margin: 0 auto;
+        width: 1417px;
+    }
+
+        .header {
+            background-color: rgb(255,0,60);
+            float: left;
+            height: 67px;
+            position: relative;
+            width: 100%;
+        }
+
+            .header_city {
+                background-color:  rgb(33,159,255);
+                float: left;
+                height: 52px;
+                margin-top: 15px;
+                position: relative;
+                width: 700px;
+            }
+
+                .choice_city {
+                   float: right;
+                   margin: 17px 51px 0 0;
+                }
+
+                    .choice_city_icon {
+                        background-image: url("image/eye_and_hand.png");
+                        background-size: cover;
+                        height: 18px;
+                        max-width: 100%;
+                        width: 42px;
+                    }
+
+                    ul.drop_down {
+                        background-color:  rgb(33,159,255);
+                        color: #ffffff;
+                        font-size: 0.8em;
+                        margin: -22px 0 0 45px;
+                    }
+
+                    ul.drop_down_inside {
+                        display: none;
+                        list-style-type: none;
+                        margin: 0 0 10px 5px;
+                        padding: 0;
+                    }
+
+                    li.drop_down_top {
+                        display: inline;
+                        float: left;
+                        margin: 0 1px 0 0;
+                    }
+
+                    li.drop_down_top a {
+                        background-color:  rgb(33,159,255);
+                        color: #ffffff;
+                        display: block;
+                        padding: 3px 10px 4px;
+                    }
+
+                    a.drop_down_top:hover {
+                        padding: 2px 10px 5px;
+                    }
+
+                    li.drop_down-top:hover li.drop_down_inside {
+                        display: block;
+                        left: 0;
+                    }
+
+            .lotto {
+                background-image: url("image/lotto.png");
+                background-size: cover;
+                float: left;
+                height: 107px;
+                margin: 14px 0 0 -45px;
+                position: relative;
+                width: 107px;
+            }
+
+                .lotto_number {
+                    color: #ffffff;
+                    font-size: 7.8em;
+                    font-weight: bold;
+                    margin: 43px 0 0 24px;
+                    position: relative;
+                }
+
+            .header_right {
+                float: left;
+                position: relative;
+            }
+
+                .menu_enter {
+                    float: left;
+                    margin: 10px 0 0 10px;
+                }
+
+                    .menu_enter_image {
+                        background-image: url("image/human.png");
+                        background-size: cover;
+                        float: left;
+                        height: 24px;
+                        margin: 19px 0 0 6px;
+                        width: 27px;
+                    }
+
+                    .menu_enter_input {
+                        color: #ffffff;
+                        float: left;
+                        font-family: Calibri;
+                        font-size: 1em;
+                        margin: 21px 0 0 12px;
+                    }
+
+                    .menu_enter_input a {
+                        color: #fff;
+                    }
+
+                    .menu_enter_input a:hover {
+                        color: #fff;
+                    }
+
+                .menu_enter_mobile {
+                    float: left;
+                    margin: 15px 0 0 106px;
+                }
+
+                    .menu_enter_mobile_input {
+                        color: #fff;
+                        float: right;
+                        font-family: Calibri;
+                        font-size: 0.854em;
+                        line-height: 15px;
+                        margin: 14px 10px 0 0;
+                        text-align: right;
+                    }
+
+                    .menu_enter_mobile_android {
+                        background-image: url("image/android.png");
+                        background-size: cover;
+                        float: right;
+                        height: 35px;
+                        margin: 7px 11px 0 0;
+                        width: 30px;
+                    }
+
+                    .menu_enter_mobile_apple {
+                        background-image: url("image/apple.png");
+                        background-size: cover;
+                        float: right;
+                        height: 30px;
+                        margin: 12px 8px 0 0;
+                        width: 26px;
+                    }
+
+        .background {
+            background-image: url("image/background.png");
+            background-size: cover;
+            float: left;
+            height: 548px;
+            margin-top: -54px;
+            position: static;
+            width: 100%;
+        }
+
+            .background_left {
+                float: left;
+                height: auto;
+                margin-top: 140px;
+                width: 50%;
+            }
+
+            .background_right {
+                float: right;
+                height: auto;
+                width: 50%;
+            }
+
+                .line_block {
+                    background-image: url("image/line.png");
+                    background-size: cover;
+                    float: right;
+                    height: 300px;
+                    margin: 58px 0 0 0;
+                    position: relative;
+                    width: 712px;
+                }
+
+                    .point_head {
+                        background-image: url("image/point_tab.png");
+                        background-size: cover;
+                        float: right;
+                        height: 7px;
+                        margin: 21px 253px 0 0;
+                        position: relative;
+                        width: 47px;
+                    }
+
+                    .menu_enter_background {
+                        color: #fff;
+                        float: left;
+                        font-family: Calibri;
+                        font-size: 0.835em;
+                        line-height: 14px;
+                        margin: 168px 0 0 256px;
+                        position: relative;
+                        text-align: right;
+                        text-shadow: 0.1em 0.1em #000;
+                    }
+
+                    .menu_enter_time {
+                        color: #fff;
+                        float: left;
+                        font-family: Calibri;
+                        font-size: 2.545em;
+                        margin: 143px 0 0 14px;
+                        position: relative;
+                    }
+
+                    .menu_enter_name {
+                        color: #fff;
+                        float: right;
+                        font-family: Calibri;
+                        font-size: 3.445em;
+                        margin: 31px 463px 0 0;
+                        position: relative;
+                        text-align: right;
+                    }
+
+                    .menu_enter_name_small {
+                        color: #fff;
+                        float: right;
+                        font-family: Calibri;
+                        font-size: 1.745em;
+                        margin: 17px 609px 0 0;
+                        position: relative;
+                        text-align: right;
+                    }
+
+                .time {
+                    color: rgb(0,0,5);
+                    float: left;
+                    font-family: Calibri;
+                    font-size: 0.974em;
+                    margin: 21px;
+                    position: relative;
+                }
+
+                .menu_stacked{
+                    float: left;
+                }
+
+                    .circle {
+                        border: 2px solid #fff;
+                        border-radius: 0.75em;
+                        height: 0.75em;
+                        margin: 27px 0 0 239px;
+                        width: 0.75em;
+                        position: relative;
+                    }
+
+                    ul.stacked {
+                        color: #fff;
+                        float: left;
+                        font-family: Arial;
+                        font-size: 0.94em;
+                        font-weight: bold;
+                        margin: -151px 0 0 276px;
+                        position: relative;
+                    }
+
+                    li.stacked_block  {
+                        color: #ffffff;
+                        display: block;
+                        line-height: 3.15em;
+                    }
+
+                    li.stacked_block a {
+                        color: #ffffff;
+                        text-decoration: none;
+                    }
+
+                    li.stacked_block a:hover {
+                        border: 1px solid #fff;
+                        border-radius: 12px;
+                        padding: 5px 10px;
+                        width: auto;
+                    }
+
+        .line_black {
+            background-color: rgba(0, 0, 0, 0.6);
+            float: left;
+            height: 75px;
+            margin-top: 116px;
+            width: 100%;
+        }
+
+        .banner_news {
+            background-image: url("image/find_out_first.png");
+            background-size: cover;
+            float: left;
+            height: 231px;
+            margin: -159px 0 0 41px ;
+            position: relative;
+            width: 179px;
+        }
+
+            .number_phone_number {
+                background-image: url("image/enter_the_number.png");
+                background-size: cover;
+                float: left;
+                height: 22px;
+                margin: 12px 0 0 14px;
+                width: 153px;
+            }
+
+                .main_text {
+                    color: #fff;
+                    float: left;
+                    font-family: Calibri;
+                    font-size: 1.24em;
+                    font-weight: bold;
+                    line-height: 1.1em;
+                    margin: 53px 0 0 31px;
+                    position: relative;
+                    text-align: center;
+                    width: 115px;
+                }
+
+                .small_text {
+                    color: #fff;
+                    float: left;
+                    font-family: Calibri;
+                    font-size: 0.938em;
+                    line-height: 1.1em;
+                    margin: 2px 0 0 13px;
+                    position: relative;
+                    text-align: center;
+                }
+
+            .this_data {
+                color: rgb(127,132,139);
+                float: left;
+                font-family: Calibri;
+                font-size: 1em;
+                margin: -63px 0 0 18px;
+            }
+
+            .fon_table {
+                background-color: rgb(87,87,87);
+                float: left;
+                height: 230px;
+                position: static;
+                width: 100%;
+            }
+
+                #calendar {
+                    border-collapse: collapse;
+                    border-style: none;
+                    float: left;
+                    margin: -41px 0 0 18px;
+                    position: relative;
+                    width: 66.5%;
+                }
+
+                .header_table {
+                    /*border: 1px solid rgb(70,69,69);*/
+                    color: rgb(151,201,255);
+                    font-size: 0.8875em;
+                    height: 2em;
+                    text-align: center;
+                    width: 14.286%;
+                }
+
+                .number_of_dates {
+                    border-left: 1px solid rgb(70,69,69);
+                    border-top: 1px solid rgb(70,69,69);
+                    color: rgb(151,201,255);
+                    font-size: 1.55em;
+                    height: 1.1em;
+                    text-align: center;
+                    width: 14.286%;
+                }
+
+
+        .now_in_theaters {
+            float: left;
+            height: 460px;
+            position: static;
+            width: 100%;
+        }
+
+            .banner {
+                background-image: url("image/banner.png");
+                background-size: cover;
+                height: 90px;
+                margin: 30px auto;
+                width: 730px;
+            }
+
+            .rent_a_movie {
+                color: rgb(157,158,158);
+                float: left;
+                font-family: Calibri;
+                font-size: 1.16em;
+                line-height: 1em;
+                margin: 0 -233px 0 215px;
+                padding: 0 10px;
+                position: relative;
+                text-align: center;
+             }
+
+            .rent_a_movie a {
+                border-left: 1px solid rgb(157,158,158);
+                color: rgb(157,158,158);
+                float: left;
+                font-family: Calibri;
+                font-size: 1.2em;
+                padding: 0 10px;
+                position: relative;
+                text-align: center;
+            }
+
+            .rent_a_movie a:hover {
+                color: rgb(151,201,255);
+            }
+
+
+            .choice {
+                float: left;
+                height: auto;
+                margin: 33px 0 0 -167px;
+                position: relative;
+            }
+
+                .choice_film {
+                    float: left;
+                    height: auto;
+                    margin-left: 10px;
+                    position: static;
+                    width: 179px;
+                }
+
+                    .trapezoid {
+                        background-image: url("image/film_name.png");
+                        background-size: cover;
+                        float: left;
+                        height: 96px;
+                        margin-top: -95px;
+                        position: relative;
+                        width: 179px;
+                    }
+
+                        .film_name {
+                            color: #fff;
+                            float: left;
+                            font-family: Calibri;
+                            font-size: 1.36em;
+                            margin: 46px 0 0 13px;
+                            position: relative;
+                        }
+
+            .rating {
+                float: left;
+                margin: -85px 0 0 303px;
+                position: relative;
+            }
+
+        .bottom_block {
+            background-color: #575757;
+            float: left;
+            height: 111px;
+            margin-top: 12px;
+            width: 100%;
+        }
+
+            .arrow_bottom {
+                background-image: url("image/arrow_borrom.png");
+                background-size: cover;
+                float: left;
+                height: 55px;
+                margin-top: -13px;
+                position: relative;
+                width: 657px;
+            }
+
+                .bottom_left {
+                    float: left;
+                    height: auto;
+                    margin: -35px 0 0 232px;
+                    position: relative;
+                    width: 50%;
+                }
+
+                    .social_networks {
+                        float: left;
+                        height: 63px;
+                        padding-left: 7px;
+                        position: relative;
+                        width: 63px;
+                    }
+
+                    .social_networks_text {
+                        color: #fff;
+                        float: left;
+                        font-family: Calibri;
+                        font-size: 1em;
+                        margin: 71px 0 0 -203px;
+                    }
+
+                .bottom_right {
+                    float: right;
+                    height: auto;
+                    position: relative;
+                    width: 50%;
+                }
+
+                    .telephone_number {
+                        color: #fff;
+                        float: left;
+                        font-family: Calibri;
+                        font-size: 3.42em;
+                        margin: -79px 0 0 29px;
+                        position: relative;
+                    }
+
+                    .conversations {
+                        float: left;
+                        border-left: 6px solid rgb(255, 0, 60);
+                        height: 2.38em;
+                        margin: -85px 0 0 332px;
+                        position: relative;
+                        width: auto;
+                    }
+
+                        .conversations_day {
+                            color: #fff;
+                            float: left;
+                            font-family: Calibri;
+                            font-size: 1em;
+                            margin: -4px 0 0 13px;
+                        }
+
+                        .conversations_time {
+                            color: #fff;
+                            float: left;
+                            font-family: Calibri;
+                            font-size: 1.68em;
+                            margin: 14px 0 0 -42px;
+                        }
+
+                    .useful_information {
+                        float: left;
+                        height: auto;
+                        margin: -32px 0 0 81px;
+                        position: relative;
+                        width: auto;
+                    }
+
+                        .warning {
+                            background-image: url("image/warning.png");
+                            background-size: cover;
+                            float: left;
+                            height: 26px;
+                            width: 27px;
+                        }
+
+                        .warning_text {
+                            color: #fff;
+                            float: left;
+                            font-family: Calibri;
+                            font-size: 1em;
+                            margin-top: 12px;
+                        }
+
+        .menu_registration {
+            background-color: #fff;
+            border-radius: 10px;
+            display: none;
+            height: 225px;
+            margin: 65px 40.8%;
+            position: absolute;
+            width: 410px;
+            z-index: 10;
+        }
+
+            .menu_registration_header {
+                float: left;
+                font-size: 1.2em;
+                margin: 10px 0 0 10px;
+                position: relative;
+                width: 100%;
+            }
+
+                .enter_registration  {
+                    color: #000;
+                    float: left;
+                    font-size: 1em;
+                }
+
+                    .enter_registration a {
+                        border-left: 2px solid rgb(111,113,114);
+                        color: #000;
+                        float: left;
+                        font-size: 1em;
+                        padding: 0 15px;
+                    }
+
+                    .enter_registration a:hover {
+                        color: #97C9FF;
+                    }
+
+                .close_baton {
+                    background-image: url("image/close.png");
+                    background-size: cover;
+                    float: left;
+                    height: 9px;
+                    margin: -15px 0 0 91%;
+                    position: relative;
+                    width: 9px;
+                }
+
+            .registration_network {
+                float: left;
+                margin-top: 1.5%;
+                position: relative;
+            }
+
+                .registration_network_text {
+                    color: #000;
+                    float: left;
+                    font-size: 0.85em;
+                    margin: 7px 0 0 25px;
+                }
+
+                .registration_network_icon {
+                    float: left;
+                    margin-left: 10px;
+                }
+
+            .registration_email {
+                float: left;
+                margin-top: 3%;
+                position: relative;
+            }
+
+                .email {
+                    color: #000;
+                    float: left;
+                    font-size: 0.85em;
+                    margin: 7px 0 0 25px;
+                }
+
+                .email_enter {
+                    border: 1px solid #808080;
+                    float: left;
+                    margin-left: 15px;
+                    height: 25px;
+                    width: 285px;
+                }
+
+                .email_enter:hover {
+                    border: 1px solid #97C9FF;
+                    float: left;
+                    margin-left: 15px;
+                    height: 25px;
+                    width: 285px;
+                }
+
+                .eye_small {
+                    background-image: url("image/eye_small.png");
+                    background-size: cover;
+                    float: left;
+                    height: 14px;
+                    margin: 8px 0 0 -25px;
+                    width: 16px;
+                }
+
+            .registration_bottom {
+                float: left;
+                margin-top: 1%;
+                position: relative;
+                width: 100%;
+            }
+
+                .enter_bottom {
+                     background-color: #219EFD;
+                     color: #FFF;
+                     float: left;
+                     font-size: 1.25em;
+                     height: 35px;
+                     position: relative;
+                     width: 110px;
+                     line-height: 1.9em;
+                     text-align: center;
+                     margin-left: 21%;
+                 }
+
+                .enter_bottom a {
+                    color: #FFF;
+                }
+
+                .enter_bottom a:hover {
+                    color: #FFF;
+                }
+
+                .warning_bottom {
+                    color: #97C9FF ;
+                    float: right;
+                    font-size: 1em;
+                    margin: 2% 7% 0 0;
+                }
+
+        .booking_main {
+            border-radius: 10px;
+            height: 300px;
+            margin: 430px 0 0 330px;
+            width: 740px;
+            position: absolute;
+            z-index: 10;
+            display: none;
+        }
+
+            .booking_left {
+                background-color: #fff;
+                border-radius: 10px;
+                float: left;
+                height: 300px;
+                position: relative;
+                width: 55%;
+            }
+
+                .booking_left_header {
+                    float: left;
+                    margin: 15px 0 0 25px;
+                    width: 100%;
+                }
+
+                    .booking_left_header_text{
+                        color: rgb(33,159,255);
+                        font-size: 1.1em;
+                    }
+
+                    .booking_left_header_text a{
+                        color: rgb(33,159,255);
+                    }
+
+                    .choice_button {
+                        float: left;
+                        height: auto;
+                        margin: 20px 0 -20px 35px;
+                    }
+
+                    .choice_button_text {
+                        color: rgb(111,113,114);
+                        float: left;
+                        font-size: 1em;
+                        margin: 5px 20px 0 10px;
+                    }
+
+                    .choice_button_net {
+                        background-image: url("image/net.png");
+                        background-size: cover;
+                        float: left;
+                        height: 26px;
+                        width: 26px;
+                    }
+
+                    /*.choice_button_net:active {*/
+                        /*background-image: url("image/net_active.png");*/
+                        /*float: left;*/
+                        /*height: 26px;*/
+                        /*width: 26px;*/
+                    /*}*/
+
+                    .diagram_text {
+                        color: rgb(33,159,255);
+                        float: left;
+                        font-size: 0.85em;
+                        margin: 5px 0 25px 12px;
+                    }
+
+                    .diagram_text a {
+                        color: rgb(33,159,255);
+                    }
+
+                .choice_bottom {
+                    background-color: rgb(201,199,199);
+                    border-bottom-left-radius: 10px;
+                    float: left;
+                    height: 35px;
+                    margin: 20px 0 0 -25px;
+                    width: 96%;
+                }
+
+                    .purchase {
+                        color: #fff;
+                        float: left;
+                        font-size: 1.2em;
+                        margin: 6px 0 0 25px;
+                    }
+
+                    .prise {
+                        color: #000;
+                        float: left;
+                        font-size: 1.3em;
+                        margin: 6px 0 0 3px;
+                    }
+
+                    .bay_block {
+                        background-color: rgb(33,159,255);
+                        float: left;
+                        height: 35px;
+                        margin: 0 0 0 43px;
+                        width: 34%;
+                    }
+
+                        .bay_text {
+                            color: #fff;
+                            float: left;
+                            font-size: 1.5em;
+                            margin: 6px 0 0 22px;
+                        }
+
+            .booking_right {
+                background-color: #fff;
+                border-radius: 10px;
+                border-left: 2px dotted #808080;
+                display: none;
+                float: left;
+                height: 300px;
+                position: relative;
+                width: 44%;
+            }
+
+                .right_header {
+                    background-color: #808080;
+                    float: left;
+                    height: 8px;
+                    margin: 17px 0 0 33px;
+                    width: 80%;
+                }
+
+                .main_row_seat {
+                    float: left;
+                    height: auto;
+                    margin: 20px 0 0 15px;
+                    width: 91%;
+                }
+
+                    .line_row_seat {
+                        float: left;
+                        height: 18px;
+                        margin-top: 5px;
+                        width: 100%;
+                    }
+
+                        .row_number {
+                            color: #808080;
+                            float: left;
+                            font-size: 1em;
+                            margin: 2px 15px 0 15px;
+                        }
+
+                        .seats {
+                            float: left;
+                            background-color: #fff;
+                            border: 1px solid #808080;
+                            height: 15px;
+                            margin: 5px 0 0 2px;
+                            width: 3%;
+                        }
+
+    @media screen and (min-width: 801px) and (max-width: 1280px) {
+        #main_table {
+            width: 95%;
+            margin: 0 auto;
+            font-size: 80%;
+        }
+
+        .header {
+            width: 95%;
+            font-size: 90%;
+        }
+
+            .header_city {
+                width: 48%;
+            }
+
+            .header_right {
+                width: 40%;
+            }
+
+            .menu_enter_mobile {
+                margin-left: 15%;
+            }
+
+        .background {
+            background-size: cover;
+            background-position: center;
+            width: 95%;
+        }
+
+        .background_left {
+            width: 45%;
+        }
+
+            .menu_stacked {
+                margin-left: -27%;
+            }
+
+                .circle {
+                    margin-top: 20px;
+                }
+
+                ul.stacked {
+                    margin-top: -120px;
+                }
+
+        .background_right {
+            width: 45%;
+            font-size: 98%;
+        }
+
+            .line_block {
+                background-size: cover;
+                width: 95%;
+            }
+
+                .point_head {
+                    margin: 21px 98px 0 0;
+                }
+
+                .menu_enter_background {
+                    font-size: 99%;
+                    margin: 35% 0 0 45%;
+                }
+
+                .menu_enter_name {
+                    margin: 5% 55% 0 0;
+                }
+
+                .menu_enter_name_small {
+                    margin: 4% 77% 0 0;
+                }
+
+        .banner{
+            background-size: cover;
+            margin: 30px 12%;
+        }
+
+        .choice {
+            width: 95%;
+            margin: 33px 0 0 7%;
+        }
+
+            .rating {
+                margin: -85px 0 0 13%;
+            }
+
+        .fon_table {
+            width: 95%;
+        }
+
+    }
+
+
+@media screen and (max-width: 800px) {
+        #main_table {
+            width: 95%;
+            margin: 0;
+            font-size: 80%;
+        }
+
+        .header {
+            width: 95%;
+        }
+
+            .header_city {
+                width: 40%;
+            }
+
+            .header_right {
+                width: 40%;
+            }
+
+        .background {
+            background-size: cover;
+            width: 95%;
+        }
+
+        .background_left {
+            width: 45%;
+        }
+
+        .background_right {
+            width: 45%;
+        }
+
+            .line_block {
+                background-size: cover;
+                width: 95%;
+            }
+
+                .point_head {
+                    margin: 21px 98px 0 0;
+                }
+
+    .fon_table {
+        width: 95%;
+    }
+
+    }

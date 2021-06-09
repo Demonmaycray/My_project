@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="./js/jquery-1.9.0.js"></script>
+    <script src="script.js"></script>
+    <title>Test_work3</title>
+</head>
+
+<body>
+    <div id="main_table">
+        <div class="header">
+            <div class="header_city">
+                <div class="choice_city">
+                    <div class="choice_city_icon"></div>
+                    <ul class="drop_down">
+                        <li class="drop_down_top js_drop_down">
+                            <a class="drop_down_top" href="#">ВІННИЦЯ</a>
+                            <ul class="drop_down_inside js_drop_down_inside">
+                                <li><a href="#">КИЇВ</a></li>
+                                <li><a href="#">ЛЬВІВ</a></li>
+                                <li><a href="#">ОДЕСА</a></li>
+                                <li><a href="#">ХАРКІВ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lotto">
+                <div class="lotto_number">3</div>
+            </div>
+            <div class="header_right">
+                <div class="menu_enter">
+                    <div class="menu_enter_image"></div>
+                    <div class="menu_enter_input js_enter"><a href="#">ВХІД</a></div>
+                    <div class="menu_enter_input"><a href="#">КАБІНЕТ</a></div>
+                </div>
+                <div class="menu_enter_mobile">
+                    <div class="menu_enter_mobile_android"></div>
+                    <div class="menu_enter_mobile_apple"></div>
+                    <div class="menu_enter_mobile_input">Квитки <br> в твоєму телефоні</div>
+                </div>
+            </div>
+        </div>
+        <div class="menu_registration js_registration">
+            <div class="menu_registration_header">
+                <span class="enter_registration"><a href="/" style="border: none">Вхід</a></span>
+                <span class="enter_registration"><a href="/">Реєстрація</a></span>
+                <div class="close_baton js_close"></div>
+            </div>
+            <div class="registration_network">
+                <span class="registration_network_text">Реєстрація через мережу</span>
+                <div class="registration_network_icon">
+                    <img src="image/social_networks_small1.png"></img>
+                </div>
+                <div class="registration_network_icon">
+                    <img src="image/social_networks_small2.png"></img>
+                </div>
+                <div class="registration_network_icon">
+                    <img src="image/social_networks_small3.png"></img>
+                </div>
+            </div>
+            <div class="registration_email">
+                <div class="email" style="margin-left: 33px">E-mail:</div>
+                <input class="email_enter" type="text"></input>
+            </div>
+            <div class="registration_email">
+                <div class="email">Пароль:</div>
+                <input class="email_enter js_input" type="password"></input>
+                <div class="eye_small js_eye"></div>
+            </div>
+            <div class="registration_bottom">
+                <div class="enter_bottom"><a href="/">УВІЙТИ</a></div>
+                <div class="warning_bottom"><a href="/">Помилка?</a></div>
+            </div>
+        </div>
+        <div class="background">
+            <div class="background_left">
+                <div class="menu_stacked">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <ul class="stacked">
+                        <li class="stacked_block"><a href="#">ФІЛЬМИ</a></li>
+                        <li class="stacked_block"><a href="#">РОЗКЛАД</a></li>
+                        <li class="stacked_block"><a href="#">РЕКЛАМА НА САЙТІ</a></li>
+                        <li class="stacked_block"><a href="#">КОНТАКТИ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="background_right">
+                <div class="line_block">
+                    <div class="point_head"></div>
+                    <div class="menu_enter_background">до найближчого сеансу <br> залишилось</div>
+                    <div class="menu_enter_time">01:45</div>
+                    <div class="menu_enter_name">ГРАВІТАЦІЯ</div>
+                    <div class="menu_enter_name_small">GRAVITY</div>
+                    <span class="time">20.10 - 25.10.2013</span>
+                </div>
+            </div>
+            <div class="line_black"></div>
+            <div class="banner_news">
+                <span class="main_text">дізнавайся <br> про найновіше ПЕРШИМ!</span>
+                <span class="small_text">Введи свій номер <br> та отримуй смс сповіщення <br> про новинки в кіноіндустрії</span>
+                <div class="number_phone_number"></div>
+            </div>
+            <div class="this_data">Сьогодні 21 ЖОВТНЯ</div>
+            <table id="calendar" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th class="header_table"><a href="#">ПОНЕДІЛОК</a></th>
+                        <th class="header_table"><a href="#">ВІВТОРОК</a></th>
+                        <th class="header_table"><a href="#">СЕРЕДА</a></th>
+                        <th class="header_table"><a href="#">ЧЕТВЕРГ</a></th>
+                        <th class="header_table"><a href="#">П’ЯТНИЦЯ</a></th>
+                        <th class="header_table"><a href="#">СУБОТА</a></th>
+                        <th class="header_table"><a href="#">НЕДІЛЯ</a></th>
+                    </tr>
+                </thead>
+                <tbody class="js_body_table">
+                    <tr>
+                        <td class="number_of_dates"><a href="#" style="color: rgb(116,117,121)">30</a></td>
+                        <td class="number_of_dates"><a href="#">1</a></td>
+                        <td class="number_of_dates"><a href="#">2</a></td>
+                        <td class="number_of_dates"><a href="#">3</a></td>
+                        <td class="number_of_dates"><a href="#">4</a></td>
+                        <td class="number_of_dates"><a href="#">5</a></td>
+                        <td class="number_of_dates"><a href="#">6</a></td>
+                    </tr>
+                    <tr>
+                        <td class="number_of_dates"><a href="#">7</a></td>
+                        <td class="number_of_dates"><a href="#">8</a></td>
+                        <td class="number_of_dates"><a href="#">9</a></td>
+                        <td class="number_of_dates"><a href="#">10</a></td>
+                        <td class="number_of_dates"><a href="#">11</a></td>
+                        <td class="number_of_dates"><a href="#">12</a></td>
+                        <td class="number_of_dates"><a href="#">13</a></td>
+                    </tr>
+                    <tr>
+                        <td class="number_of_dates"><a href="#">14</a></td>
+                        <td class="number_of_dates"><a href="#">15</a></td>
+                        <td class="number_of_dates"><a href="#">16</a></td>
+                        <td class="number_of_dates"><a href="#">17</a></td>
+                        <td class="number_of_dates"><a href="#">18</a></td>
+                        <td class="number_of_dates"><a href="#">19</a></td>
+                        <td class="number_of_dates"><a href="#">20</a></td>
+                    </tr>
+                    <tr>
+                        <td class="number_of_dates"><a href="#">21</a></td>
+                        <td class="number_of_dates"><a href="#">22</a></td>
+                        <td class="number_of_dates"><a href="#">23</a></td>
+                        <td class="number_of_dates"><a href="#">24</a></td>
+                        <td class="number_of_dates"><a href="#">25</a></td>
+                        <td class="number_of_dates"><a href="#">26</a></td>
+                        <td class="number_of_dates"><a href="#">27</a></td>
+                    </tr>
+                    <tr>
+                        <td class="number_of_dates"><a href="#">28</a></td>
+                        <td class="number_of_dates"><a href="#">29</a></td>
+                        <td class="number_of_dates"><a href="#">30</a></td>
+                        <td class="number_of_dates"><a href="#">31</a></td>
+                        <td class="number_of_dates"><a href="#" style="color: rgb(116,117,121)">1</a></td>
+                        <td class="number_of_dates"><a href="#" style="color: rgb(116,117,121)">2</a></td>
+                        <td class="number_of_dates"><a href="#" style="color: rgb(116,117,121)">3</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="fon_table"></div>
+        <div class="booking_main js_booking_main">
+            <div class="booking_left js_booking_left">
+                <div class="booking_left_header">
+                    <div class="booking_left_header_text"><a href="#">Бронювання квитків</a></div>
+                    <div class="close_baton js_close2" style="margin-left: 87%"></div>
+                    <div class="choice_button">
+                        <div class="choice_button_text">Дата:</div>
+                        <select>
+                            <option>22.10.2013</option>
+                            <option>23.10.2013</option>
+                            <option>24.10.2013</option>
+                            <option>25.10.2013</option>
+                            <option>26.10.2013</option>
+                        </select>
+                    </div>
+                    <div class="choice_button">
+                        <div class="choice_button_text" style="margin-left: 2px">Фільм:</div>
+                        <select>
+                            <option>СТАЛІНГРАД</option>
+                            <option>БУДИНОК ЗАБУТИХ РЕЧЕЙ</option>
+                            <option>ПЛАН ВТЕЧІ</option>
+                            <option>ГРАВІТАЦІЯ</option>
+                            <option>РОМЕО І ДЖУЛЬЄТА</option>
+                        </select>
+                    </div>
+                    <div class="choice_button">
+                        <div class="choice_button_text" style="margin-left: -30px">Час сеансу:</div>
+                        <select>
+                            <option>18:30</option>
+                            <option>20:15</option>
+                            <option>21:30</option>
+                            <option>23:00</option>
+                        </select>
+                    </div>
+                    <div class="choice_button">
+                        <div class="choice_button_text" style="margin-left: -35px">Місце у залі:</div>
+                        <div class="choice_button_net js_open_block"></div>
+                        <div class="diagram_text js_open_right"><a href="#">Схема посадочних місць залу</a></div>
+                    </div>
+                    <div class="choice_button">
+                        <div class="choice_button_text" style="margin-left: -30px">Вид оплати:</div>
+                        <select>
+                            <option>WebMoney</option>
+                            <option>Paypal</option>
+                            <option>Приват24</option>
+                            <option>Yandex money</option>
+                        </select>
+                    </div>
+                    <div class="choice_bottom">
+                        <div class="purchase">Сума до сплати:</div>
+                        <div class="prise">120грн</div>
+                        <div class="bay_block">
+                            <div class="bay_text">КУПИТИ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="booking_right js_booking_right">
+                <div class="right_header"></div>
+                <div class="main_row_seat js_main_row">
+                    <div class="line_row_seat">
+                        <div class="row_number">1</div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="row_number">1</div>
+                    </div>
+                    <div class="line_row_seat">
+                        <div class="row_number">2</div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="row_number">2</div>
+                    </div>
+                    <div class="line_row_seat">
+                        <div class="row_number">3</div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="row_number">3</div>
+                    </div>
+                    <div class="line_row_seat">
+                        <div class="row_number">4</div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="row_number">4</div>
+                    </div>
+                    <div class="line_row_seat">
+                        <div class="row_number">5</div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="row_number">5</div>
+                    </div>
+                    <div class="line_row_seat">
+                        <div class="row_number">6</div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="row_number">6</div>
+                    </div>
+                    <div class="line_row_seat">
+                        <div class="row_number">7</div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="row_number">7</div>
+                    </div>
+                    <div class="line_row_seat">
+                        <div class="row_number">8</div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="row_number">8</div>
+                    </div>
+                    <div class="line_row_seat">
+                        <div class="row_number">9</div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="row_number">9</div>
+                    </div>
+                    <div class="line_row_seat">
+                        <div class="row_number" style="margin: 2px 10px 0">10</div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="seats"></div>
+                        <div class="row_number" style="margin: 2px 0 0 15px">10</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="now_in_theaters">
+            <div class="banner"></div>
+            <span class="rent_a_movie"><a href="/" style="border: none">ЗАРАЗ В ПРОКАТІ</a></span>
+            <span class="rent_a_movie"><a href="/">НЕЗАБАРОМ НА ЕКРАНАХ</a></span>
+            <div class="choice">
+                <div class="choice_film">
+                    <img src="image/choice_of_film1.png">
+                    <div class="trapezoid">
+                        <div class="film_name">СТАЛІНГРАД</div>
+                    </div>
+                </div>
+                <div class="choice_film">
+                    <img src="image/choice_of_film2.png">
+                    <div class="trapezoid">
+                        <div class="film_name">БУДИНОК <br> ЗАБУТИХ РЕЧЕЙ</div>
+                    </div>
+                </div>
+                <div class="choice_film">
+                    <img src="image/choice_of_film3.png">
+                    <div class="trapezoid">
+                        <div class="film_name">ПЛАН ВТЕЧІ</div>
+                    </div>
+                </div>
+                <div class="choice_film">
+                    <img src="image/choice_of_film4.png">
+                    <div class="trapezoid">
+                        <div class="film_name">ГРАВІТАЦІЯ</div>
+                    </div>
+                </div>
+                <div class="choice_film">
+                    <img src="image/choice_of_film5.png">
+                    <div class="trapezoid">
+                        <div class="film_name">РОМЕО <br> І ДЖУЛЬЄТА</div>
+                    </div>
+                </div>
+            </div>
+            <div class="rating">
+                <img src="image/rating.png">
+            </div>
+        </div>
+        <div class="bottom_block">
+            <div class="arrow_bottom"></div>
+            <div class="bottom_left">
+                <div class="social_networks">
+                    <img src="image/social_networks1.png">
+                </div>
+                <div class="social_networks">
+                    <img src="image/social_networks2.png">
+                </div>
+                <div class="social_networks">
+                    <img src="image/social_networks3.png">
+                </div>
+                <div class="social_networks_text">© Мережа кінотеатрів «3»,2013</div>
+            </div>
+            <div class="bottom_right">
+                <div class="telephone_number">(0432) 508 508</div>
+                <div class="conversations">
+                    <div class="conversations_day">Щодня</div>
+                    <div class="conversations_time">9:00—22:00</div>
+                </div>
+                <div class="useful_information">
+                    <div class="warning"></div>
+                    <div class="warning_text">Всі дзвінки по Україні зі стаціонарних телефонів безкоштовні</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
