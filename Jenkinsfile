@@ -16,7 +16,7 @@ pipeline {
         stage('deploy') {
             steps {
                 sshagent(['Web-server']) {
-                sh "scp -r -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/My_project_Pipeline/* ubuntu@18.222.249.167:/var/www/korchovyi_project"
+                sh "scp -r -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/My_project_Pipeline/web-page/* ubuntu@18.222.249.167:/var/www/korchovyi_project"
                 }
             echo "End of deploy"
             }
