@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone_repository') { 
             steps {
-                git credentialsId: 'My_project', url: 'https://github.com/Demonmaycray/My_project/web-page/'
+                git credentialsId: 'My_project', url: 'https://github.com/Demonmaycray/My_project/'
             }
         }
         stage('deploy') {
